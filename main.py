@@ -9,7 +9,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",  # Desarrollo
-        "https://login-form-front-theta.vercel.app/"  # Producción
+        "https://login-form-front-git-main-belgique5432s-projects.vercel.app"  # Producción
     ],
     allow_credentials=True,
     allow_methods=["*"],
